@@ -22,10 +22,16 @@ public class ExpressionValidation {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter expression to validate:");
-        String expression = sc.next();
+        String expression = sc.next(); 
+
+        /* there is problem here with pasting. If an expression is pasted 
+        sometimes the next scan will not wait (for charPair) and will skip 
+        ahead. Unsure of how to fix. If problem occurs try not pasting the 
+        expression */
         
         System.out.println("Enter both characters to validate against - eg: () or {}.");
-        String charPair = sc.next();
+        String charPair = sc.next(); 
+        
         Stack stack = new Stack();
         int a = 0;
         if (charPair.length() == 2) {
