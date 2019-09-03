@@ -9,8 +9,8 @@ import java.util.Scanner;
 import java.util.Stack;
 
 /**
- *
- * @author 420190038
+ * ExpressionValidation, reads and validates an expression
+ * @author Matthew Dods 420190038
  */
 public class ExpressionValidation {
 
@@ -18,7 +18,6 @@ public class ExpressionValidation {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         
         System.out.println("Enter expression to validate:");
